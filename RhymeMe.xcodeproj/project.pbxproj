@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		041240E51F38F83300609A18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041240E41F38F83300609A18 /* AppDelegate.swift */; };
-		041240E71F38F83300609A18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041240E61F38F83300609A18 /* ViewController.swift */; };
 		041240EA1F38F83300609A18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041240E81F38F83300609A18 /* Main.storyboard */; };
 		041240EC1F38F83300609A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041240EB1F38F83300609A18 /* Assets.xcassets */; };
 		041240EF1F38F83300609A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041240ED1F38F83300609A18 /* LaunchScreen.storyboard */; };
+		041240F71F38F84500609A18 /* configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041240F61F38F84500609A18 /* configuration.swift */; };
+		041240F91F38F84E00609A18 /* dataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041240F81F38F84E00609A18 /* dataManager.swift */; };
+		041240FB1F39099200609A18 /* Rhyme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041240FA1F39099200609A18 /* Rhyme.swift */; };
+		042952311F4F8B730029F809 /* rhymeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042952301F4F8B730029F809 /* rhymeCell.swift */; };
+		049B2EC61F42857500B668F6 /* rhymeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B2EC51F42857500B668F6 /* rhymeDetailView.swift */; };
+		04D469AC1F3D582600C2FE93 /* rhymeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D469AB1F3D582600C2FE93 /* rhymeViewController.swift */; };
+		04FD552C1F3AB989006FBF67 /* rhymetableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD552B1F3AB989006FBF67 /* rhymetableview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		041240E11F38F83300609A18 /* RhymeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RhymeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041240E41F38F83300609A18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		041240E61F38F83300609A18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		041240E91F38F83300609A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041240EB1F38F83300609A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041240EE1F38F83300609A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041240F01F38F83300609A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041240F61F38F84500609A18 /* configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = configuration.swift; sourceTree = "<group>"; };
+		041240F81F38F84E00609A18 /* dataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataManager.swift; sourceTree = "<group>"; };
+		041240FA1F39099200609A18 /* Rhyme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rhyme.swift; sourceTree = "<group>"; };
+		042952301F4F8B730029F809 /* rhymeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rhymeCell.swift; sourceTree = "<group>"; };
+		049B2EC51F42857500B668F6 /* rhymeDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rhymeDetailView.swift; sourceTree = "<group>"; };
+		04D469AB1F3D582600C2FE93 /* rhymeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rhymeViewController.swift; sourceTree = "<group>"; };
+		04FD552B1F3AB989006FBF67 /* rhymetableview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rhymetableview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				041240E41F38F83300609A18 /* AppDelegate.swift */,
-				041240E61F38F83300609A18 /* ViewController.swift */,
+				04D469AB1F3D582600C2FE93 /* rhymeViewController.swift */,
+				04FD552B1F3AB989006FBF67 /* rhymetableview.swift */,
+				049B2EC51F42857500B668F6 /* rhymeDetailView.swift */,
+				042952301F4F8B730029F809 /* rhymeCell.swift */,
 				041240E81F38F83300609A18 /* Main.storyboard */,
 				041240EB1F38F83300609A18 /* Assets.xcassets */,
 				041240ED1F38F83300609A18 /* LaunchScreen.storyboard */,
 				041240F01F38F83300609A18 /* Info.plist */,
+				041240F61F38F84500609A18 /* configuration.swift */,
+				041240F81F38F84E00609A18 /* dataManager.swift */,
+				041240FA1F39099200609A18 /* Rhyme.swift */,
 			);
 			path = RhymeMe;
 			sourceTree = "<group>";
@@ -136,8 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041240E71F38F83300609A18 /* ViewController.swift in Sources */,
+				041240F91F38F84E00609A18 /* dataManager.swift in Sources */,
+				041240F71F38F84500609A18 /* configuration.swift in Sources */,
+				04D469AC1F3D582600C2FE93 /* rhymeViewController.swift in Sources */,
+				041240FB1F39099200609A18 /* Rhyme.swift in Sources */,
 				041240E51F38F83300609A18 /* AppDelegate.swift in Sources */,
+				04FD552C1F3AB989006FBF67 /* rhymetableview.swift in Sources */,
+				049B2EC61F42857500B668F6 /* rhymeDetailView.swift in Sources */,
+				042952311F4F8B730029F809 /* rhymeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +323,7 @@
 				041240F51F38F83300609A18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
